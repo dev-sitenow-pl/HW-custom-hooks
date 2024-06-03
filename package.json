@@ -10,7 +10,7 @@
     "prettify": "prettier --write",
     "preview": "vite preview",
     "prepare": "husky install",
-    "typecheck": "tsc --skipLibCheck --noEmit --jsx react-jsx",
+    "typecheck": "tsc --skipLibCheck --esModuleInterop true --noEmit --jsx react-jsx",
     "precommit": "lint-staged"
   },
   "dependencies": {
